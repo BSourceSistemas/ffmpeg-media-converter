@@ -1,0 +1,13 @@
+{
+    "curly": true,
+    "forin": false,
+    "nocomma": true,
+    "predef": ["console"],
+    "undef": true,
+    "shadow": "outer",
+    "unused": true,
+    "eqeqeq": true,
+    "eqnull": true,
+    "esversion": "11",
+    "esnext": true
+}

@@ -1,0 +1,30 @@
+{
+  "name": "ffmpeg-media-converter",
+  "version": "1.0.0",
+  "description": "A Node Js video media converter to transform avi format to mp4.",
+  "main": "index.js",
+  "dependencies": {
+    "any-shell-escape": "^0.1.1",
+    "ffmpeg-static": "^4.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./index.js video-test.avi video-test.mp4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BSourceSistemas/ffmpeg-media-converter.git"
+  },
+  "keywords": [
+    "nodejs",
+    "video",
+    "converter",
+    "avi-to-mp4"
+  ],
+  "author": "Daniel da Cunha Bueno",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/BSourceSistemas/ffmpeg-media-converter/issues"
+  },
+  "homepage": "https://github.com/BSourceSistemas/ffmpeg-media-converter#readme"
+}
